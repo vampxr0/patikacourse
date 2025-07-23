@@ -1,0 +1,1 @@
+# Aritmetik Sayı ve İşlem Önceliği Pratiği

@@ -3,7 +3,7 @@ package proje1.Library;
 
 
 /**
- * Represents a single book in the library.
+ * Kütüphanedeki tek bir kitabı temsil eder.
  */
 public class Book {
     private String title;

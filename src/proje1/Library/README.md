@@ -26,3 +26,22 @@ A simple **console-based** library management application written in **Java**, a
 - A terminal or IDE (e.g., IntelliJ, Eclipse, VS Code)
 
 ---
+
+## ▶️ How to Run
+1. Clone the repository (or copy the files into a folder named `proje1`):
+    ```bash
+    git clone https://github.com/your-username/library-management-java.git
+    cd library-management-java
+    ```
+
+2. Compile the Java files:
+    ```bash
+    javac proje1/*.java
+    ```
+
+3. Run the program:
+    ```bash
+    java proje1.ConsoleUI
+    ```
+
+---

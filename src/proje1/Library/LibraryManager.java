@@ -5,23 +5,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Manages library book operations (add, search, borrow, return).
+ * Kütüphane kitap işlemlerini yönetir (ekleme, arama, ödünç alma, iade).
  */
 public class LibraryManager {
     private List<Book> books = new ArrayList<>();
 
     public void addBook(String title, String author) {
         if (title.isBlank() || author.isBlank()) {
-            System.out.println("Book title and author cannot be empty.");
+            System.out.println("Kitap adı ve yazarı boş bırakılamaz.");
             return;
         }
         books.add(new Book(title, author));
-        System.out.println("Book added successfully!");
+        System.out.println("Kitap başarıyla eklendi!");
     }
 
     public void displayBooks() {
         if (books.isEmpty()) {
-            System.out.println("No books in the library.");
+            System.out.println("Kütüphanede kitap yok.");
             return;
         }
         for (Book book : books) {
@@ -42,24 +42,24 @@ public class LibraryManager {
     public void borrowBook(String title) {
         Book book = findBookByTitle(title);
         if (book == null) {
-            System.out.println("Book not found.");
+            System.out.println("Kitap bulunamadı.");
         } else if (book.isBorrowed()) {
-            System.out.println("This book is already borrowed.");
+            System.out.println("Bu kitap zaten ödünç alınmış.");
         } else {
             book.borrow();
-            System.out.println("Book borrowed successfully!");
+            System.out.println("Kitap başarıyla ödünç alındı!");
         }
     }
 
     public void returnBook(String title) {
         Book book = findBookByTitle(title);
         if (book == null) {
-            System.out.println("Book not found.");
+            System.out.println("Kitap bulunamadı.");
         } else if (!book.isBorrowed()) {
-            System.out.println("This book was not borrowed.");
+            System.out.println("Bu kitap ödünç alınmamıştır.");
         } else {
             book.returnBook();
-            System.out.println("Book returned successfully!");
+            System.out.println("Kitap başarıyla iade edildi!");
         }
     }
 }

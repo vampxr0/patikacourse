@@ -9,17 +9,17 @@ public class AritmetikSayi {
 
 
         System.out.println("İlk sayıyı giriniz :");
-        int a= scan.nextInt();
+        double a= scan.nextDouble();
 
         System.out.println("İkinci sayıyı giriniz :");
-        int b = scan.nextInt();
+        double b = scan.nextDouble();
 
         System.out.println("Üçüncü sayıyı giriniz :");
-        int c = scan.nextInt();
+        double c = scan.nextDouble();
 
-        int sonuc = a + (b * c) - b ;
+        double process = a + (b * c) - b ;
 
-        System.out.println("İşlem sonucu :" + sonuc);
+        System.out.println("İşlem sonucu :" + process);
 
         scan.close();
     }

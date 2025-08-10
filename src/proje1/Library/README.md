@@ -22,4 +22,7 @@ A simple **console-based** library management application written in **Java**, a
 ---
 
 ## 🛠 Requirements
-- **Java 17** or newer (works with Java
+- **Java 17** or newer (works with Java 8+)
+- A terminal or IDE (e.g., IntelliJ, Eclipse, VS Code)
+
+---

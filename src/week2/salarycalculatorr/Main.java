@@ -1,4 +1,4 @@
-package week2.salarycalculator;
+package week2.salarycalculatorr;
 
 
 public class Main {

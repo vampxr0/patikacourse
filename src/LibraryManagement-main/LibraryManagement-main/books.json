@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Kitap1",
+    "author": "Yazar1",
+    "ISBN": "978-5708073670",
+    "StorageLocation": "BC1_S1_1",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  },
+  {
+    "title": "Kitap2",
+    "author": "Yazar2",
+    "ISBN": "978-3847359686",
+    "StorageLocation": "BC1_S1_2",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  },
+  {
+    "title": "Kitap3",
+    "author": "Yazar3",
+    "ISBN": "978-3466247663",
+    "StorageLocation": "BC1_S1_3",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  },
+  {
+    "title": "Kitap4",
+    "author": "Yazar4",
+    "ISBN": "978-2224170122",
+    "StorageLocation": "BC1_S1_4",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  },
+  {
+    "title": "Kitap5",
+    "author": "Yazar5",
+    "ISBN": "978-9400524976",
+    "StorageLocation": "BC1_S1_5",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  },
+  {
+    "title": "Kitap6",
+    "author": "Yazar6",
+    "ISBN": "978-5082766143",
+    "StorageLocation": "BC1_S2_1",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  },
+  {
+    "title": "Kitap7",
+    "author": "Yazar7",
+    "ISBN": "978-1090189058",
+    "StorageLocation": "BC1_S2_2",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  },
+  {
+    "title": "Kitap8",
+    "author": "Yazar8",
+    "ISBN": "978-9894606604",
+    "StorageLocation": "BC1_S2_3",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  },
+  {
+    "title": "Kitap9",
+    "author": "Yazar9",
+    "ISBN": "978-6276845209",
+    "StorageLocation": "BC1_S2_4",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  },
+  {
+    "title": "Kitap10",
+    "author": "Yazar10",
+    "ISBN": "978-9890619182",
+    "StorageLocation": "BC1_S2_5",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  },
+  {
+    "title": "Sarper",
+    "author": "Kaya",
+    "ISBN": "978-6639000063",
+    "StorageLocation": "BC1_S3_1",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  },
+  {
+    "title": "Sarper2",
+    "author": "Kayar",
+    "ISBN": "978-9090082539",
+    "StorageLocation": "BC20_S4_1",
+    "status": "ACTIVE",
+    "rentBy": "-",
+    "rentAt": "0000-00-00 00:00:00"
+  }
+]
